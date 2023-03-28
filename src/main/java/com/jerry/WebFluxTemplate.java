@@ -1,4 +1,4 @@
-package com.codestates;
+package com.jerry;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class Section4Week4TemplateWebfluxApplication {
+public class WebFluxTemplate {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Section4Week4TemplateWebfluxApplication.class, args);
+		SpringApplication.run(WebFluxTemplate.class, args);
 	}
 
 
